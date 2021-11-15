@@ -1,0 +1,105 @@
+/*FUENTES*/
+/*Títulos*/
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital@1&display=swap');
+/*font-family: 'Mali', cursive;*/
+/*Párrafos*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/fondo3.jpg);
+}
+header{
+    text-align: center;
+    margin-top: 30px;
+}
+header h1{
+    font-family: 'Mali', cursive;
+    font-size: 40pt;
+    text-shadow: 1px 1px 2px #000000;
+}
+header p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px #000000;
+}
+/*CARD EQUIPO*/
+/*Imagen de fondo y se añadió la animación a posteriori*/
+
+.container{
+    height: 1000px;
+    padding-top: 4em;
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-left: 4.5em;
+}
+/*Fondo blanco del fondo en height cambio cuan largo es*/
+.cont2{
+    margin: auto;
+    width: 30%;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.815);
+    height: 920px;
+    border-radius: 1em;
+    margin-left: 2em;
+}
+/*Imagen de Manuelas (las personas)*/
+.cont2 img{
+    display: block;
+    margin: auto;
+    padding-top: 2em;
+    border-radius: 100%;
+}
+.cont2 img:hover{
+    filter: opacity(80%);  
+}
+/*Texto de dentro*/
+.cont2 h1{
+    text-align: center;
+    font-family: 'Mali', cursive;
+    padding-top: 1em;
+}
+.cont2 p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2em;
+}
+/*ICONOS*/
+
+.iconos{
+    text-align: center;
+    width: 80%;
+    font-size: 30pt;
+    color: #551A8B;
+    margin: auto;
+    display: block;
+}
+
+.iconos a{
+    color: pink;
+}
+i{
+    padding: 0.5em;
+}
+i:hover{
+    color: yellow;
+}
+/*BOTÓN*/
+
+.boton{
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+    width: 35%;
+    background-color: pink;
+    display: block;
+    margin: auto;
+    border-radius: 1em;
+    color: white;
+    margin-top: 2em;
+    font-family: 'Montserrat', sans-serif;
+}
