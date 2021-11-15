@@ -26,6 +26,13 @@ header p{
     margin-top: 10px;
     text-shadow: 1px 1px 1px #000000;
 }
+/*Animación Javascript de Bienvenida*/
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px #000000;
+}
+
 /*CARD EQUIPO*/
 /*Imagen de fondo y se añadió la animación a posteriori*/
 
@@ -54,19 +61,19 @@ header p{
 	0%{opacity: 0}
 	100%{opacity: 1}
 }
-
+/*Animación que hace que aparezca cada contenedor en x tiempo*/
 .cont2:nth-child(1){
-	animation: container 2s 3s backwards;
+	animation: cont2 2s 3s backwards;
 }
 
 .cont2:nth-child(2){
-	animation: container2s 3.5s backwards;
+	animation: cont2 2s 3.5s backwards;
 }
 
 .cont2:nth-child(3){
-	animation: container 2s 4s backwards;
+	animation: cont2 2s 4s backwards;
 }
-
+/*Aquí el contenedor blanco se agranda al clicar*/
 .cont2:hover{
 	transform: scale(1.1);
 }
