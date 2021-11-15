@@ -68,6 +68,11 @@ header p{
     font-family: 'Montserrat', sans-serif;
     padding: 2em;
 }
+.cont2 h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
 /*ICONOS*/
 
 .iconos{
