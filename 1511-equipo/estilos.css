@@ -85,6 +85,7 @@ header p{
     padding-top: 2em;
     border-radius: 100%;
 }
+
 .cont2 img:hover{
     filter: opacity(80%);  
 }
